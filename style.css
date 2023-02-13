@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./bg\ image.jpg);
+    background-position: center;
+    background-size:cover; 
+
+}
+
+.navbar ul{
+    list-style: none;
+    /* background-color: blue; */
+text-align: right;
+    margin-right: 200px;
+   
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.navbar a:hover{
+    background-color: brown;
+}
+span img{
+    border-radius: 20px;
+}
+span{
+    display: inline-block;
+}
+.container1{
+    /* width: 100%; */
+    /* border: 5px solid red; */
+    display: flex;
+}
+.item{
+    width: 50%;
+    
+    height: 800px;
+    
+}
+.subitem1{
+    padding-top: 200px;
+    padding-left: 50px;
+    color: white;
+}
+.item2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.subitem2{
+   
+    width: 35%;
+    height: 44%;
+    align-items: center;
+    /* margin-top: 10px; */
+   
+    transition: 1.5s;
+    border-radius: 20px;
+    transition: ease-out; 
+}
+.subitem2:hover{
+    transform: translate(0,-20px)
+    
+}
+.box1{
+    background-image: url(./IMG_20210622_194458.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.box2{
+    background-image: url(./sahara\ 1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    background-image: url(./sahara\ 2.jpeg);
+    background-position: center;
+    background-size: cover;  
+}
+.box4{
+    background-image: url(./sahara\ 3.jpeg);
+    background-position: center;
+    background-size: cover;  
+}
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    display: inline;
+    
+}
+p{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+}
+button{
+    font-size: 40px;
+    width: 200px;
+    height: 50 px;
+    border-radius: 30px;
+
+}
+.logo ion-icon {
+    color: white;
+    font-size: 70px;
+    display: inline-block;
+} 
+.logo{
+    display:inline-block;
+    position: absolute;
+    left: 100px;
+}
+.navbar{
+display: block;
+
+
+}
+
